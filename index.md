@@ -19,6 +19,8 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 > This is a blockquote following a header.
 > 
 > When something is important enough, you do it even if the odds are not in your favor.
+>
+> You need to let a > before each line to \n
 
 ### Header 3
 
@@ -35,6 +37,15 @@ var fun = function lang(l) {
 GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
+```
+
+```python
+# This is a python program to generate 10k different passwords
+# in a file named worldlist.txt to attempt cracking the wpa2 hash later
+with open("wordlist.txt", "w") as f:
+    for i in range(10000):  # 0000 to 9999
+        f.write(f"ritaj{i:04d}\n")  # Formats numbers as 4 digits (e.g., 0001, 0234)
+
 ```
 
 #### Header 4
