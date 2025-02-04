@@ -111,6 +111,9 @@ with open("wordlist.txt", "w") as f:
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
+# SHOUTOUT TO STEINS GATE
+
+![STEINSGATE](images/steins_gate.png)
 
 ### Definition lists can be used with HTML syntax.
 
