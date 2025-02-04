@@ -39,6 +39,14 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
+```python
+# This is a python program to generate 10k different password in a file named worldlist.txt to attempt cracking the wpa2 hash later 
+with open("wordlist.txt", "w") as f:
+    for i in range(10000):  # 0000 to 9999
+        f.write(f"ritaj{i:04d}\n")  # Formats numbers as 4 digits (e.g., 0001, 0234)
+
+```
+
 #### Header 4
 
 *   This is an unordered list following a header.
