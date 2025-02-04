@@ -39,7 +39,7 @@ GitHubPages::Dependencies.gems.each do |gem, version|
 end
 ```
 
-```
+```python
 // This is a python program to generate 10k different password
 in a file named worldlist.txt to attempt cracking the wpa2 hash later // 
 with open("wordlist.txt", "w") as f:
